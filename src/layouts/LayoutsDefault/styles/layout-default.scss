@@ -1,0 +1,11 @@
+.layout-default{
+    position: relative;
+    padding-top: 60px;
+    min-height: 100%;
+    
+    &__container{
+        min-height: inherit;
+        max-width: 744px;
+        margin: 0 auto;
+    }
+}

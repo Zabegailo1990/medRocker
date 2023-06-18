@@ -1,0 +1,13 @@
+.gallery {
+
+	&__loading {
+		margin: 136px auto 136px auto;
+	}
+
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 42px;
+		padding-left: 56px;
+	}
+}

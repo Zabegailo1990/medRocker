@@ -1,0 +1,39 @@
+.dropdown {
+	&__row {
+		display: flex;
+		align-items: center;
+		column-gap: 24px;
+		min-height: 80px;
+	}
+
+	&__button {
+		position: relative;
+
+		&--icon {
+			&::before,
+			&::after {
+				position: absolute;
+				content: '';
+				height: 2px;
+				width: 14px;
+				background-color: #fff;
+				transition: all 0.3s;
+			}
+			&::after {
+				transform: rotate(90deg);
+			}
+			&--active {
+				&::after {
+					transform: rotate(180deg);
+				}
+				&::before {
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
+
+	&__content {
+		// padding-left: 56px;
+	}
+}

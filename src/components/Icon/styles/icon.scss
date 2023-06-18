@@ -1,0 +1,12 @@
+.icon {
+	fill: #d0d0d0;
+	width: 20px;
+	height: 19px;
+	transition: all 0.3s;
+
+	&--color {
+		&--gold {
+			fill: #ffaf37;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    border: none;
+
+    &--round{
+        border-radius: 50%;
+    }
+
+    &--bg--blue{
+        background-color: #117DC1;
+    }
+
+    &--bg--white{
+        background-color: #fff;
+    }
+    
+    &--bg--transparent{
+        background-color: transparent;
+    }
+}

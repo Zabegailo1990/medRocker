@@ -1,0 +1,14 @@
+.catalog{
+    min-height: 100%;
+
+    &__user{
+        margin-top: 16px;
+    }
+
+    &__loading{
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translateY(-50%, -50%);
+    }
+}

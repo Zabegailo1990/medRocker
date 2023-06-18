@@ -1,0 +1,36 @@
+.favorites {
+	&__gallery {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 534px;
+		gap: 42px;
+		margin: 56px auto 0 auto;
+	}
+
+    &__notice{
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+	&__img {
+		width: 264px;
+		height: 198px;
+        margin-bottom: 32px;
+	}
+
+	&__title {
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 8px;
+	}
+
+	&__text {
+		font-size: 18px;
+		font-weight: 400;
+	}
+}

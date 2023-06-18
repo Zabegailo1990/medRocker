@@ -1,0 +1,18 @@
+.user {
+	&__title {
+		font-size: 22px;
+		font-weight: 500;
+		&--thin {
+			font-size: 18px;
+			font-weight: 400;
+		}
+	}
+
+	&__loading {
+		margin: 136px auto 136px auto;
+	}
+
+	&__inner {
+		padding-left: 56px;
+	}
+}
